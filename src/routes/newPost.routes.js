@@ -10,7 +10,7 @@ routesNewPost.post('/newPost', async (req,res)=>{
 
     if (!token) {
         return res.status(401).json({
-            message: "Invalid user"
+            message: "Invalid user"  
         });
     }
 
